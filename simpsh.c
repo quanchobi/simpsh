@@ -30,7 +30,7 @@
 /* Path to add to env. Searched for system executables by the shell, to add more directories 
  * to path, simply append :/DIR_TO_ADD, as Shell automatically parses and searches any directories
  * separated by colons */
-#define PATH "/usr/bin/:"     
+#define PATH "/run/current-system/sw/bin/:/usr/bin/:/bin/"
 
 typedef void (*sighandler_t)(int); // Signal handler type
 
